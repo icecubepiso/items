@@ -1,0 +1,32 @@
+{
+  "name": "items",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": ".",
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "format": "prettier --write \"./src/**/*.{ts,tsx,css,scss}\""
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.3.1",
+    "@chakra-ui/styled-system": "^2.3.1",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "framer-motion": "^7.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.13",
+    "@types/node": "^18.7.14",
+    "@types/react": "^18.0.18",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.1",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.2",
+    "vite": "^3.0.9"
+  }
+}
